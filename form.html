@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Digital Health Card</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h2>Health Card Form</h2>
+  <form id="healthForm">
+    <label>Name: <input type="text" id="name" required /></label><br>
+    <label>DOB: <input type="date" id="dob" required /></label><br>
+    <label>Blood Group: <input type="text" id="blood" required /></label><br>
+    <label>Gender:
+      <select id="gender">
+        <option>Male</option><option>Female</option><option>Other</option>
+      </select>
+    </label><br>
+    <label>Allergies: <input type="text" id="allergies" /></label><br>
+    <label>Medical Conditions: <input type="text" id="conditions" /></label><br>
+    <label>Emergency Contact Name: <input type="text" id="emergencyName" /></label><br>
+    <label>Phone: <input type="tel" id="emergencyPhone" /></label><br>
+    <label>Relation: <input type="text" id="emergencyRelation" /></label><br>
+    <button type="submit">Save Card</button>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
+ <!-- 1. Doctor Visits -->
+<h3>Doctor Visits</h3>
+<label>Doctor Name: <input type="text" id="doctorName"></label><br>
+<label>Visit Date: <input type="date" id="visitDate"></label><br>
+<label>Notes: <input type="text" id="visitNotes"></label><br><br>
+
+<!-- 2. Recent Medications -->
+<h3>Recent Medications</h3>
+<label>Medicine Name: <input type="text" id="medName"></label><br>
+<label>Dosage: <input type="text" id="dosage"></label><br>
+<label>Start Date: <input type="date" id="medDate"></label><br><br>
+
+<!-- 3. Test Uploads -->
+<h3>Test Reports</h3>
+<label>Test Name: <input type="text" id="testName"></label><br>
+<label>Test Date: <input type="date" id="testDate"></label><br>
+<label>Upload Report: <input type="file" id="testFile"></label><br><br>
